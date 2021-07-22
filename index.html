@@ -6,13 +6,13 @@
     <title>Unity WebGL Player | Simple Shooty</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" width=1080 height=1920 style="width: 1080px; height: 1920px; background: #231F20"></canvas>
-    <script src="Build/Build.loader.js"></script>
+    <canvas id="unity-canvas" width=375 height=667 style="width: 375px; height: 667px; background: #231F20"></canvas>
+    <script src="Build/Test.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Build.data.gz",
-        frameworkUrl: "Build/Build.framework.js.gz",
-        codeUrl: "Build/Build.wasm.gz",
+        dataUrl: "Build/Test.data",
+        frameworkUrl: "Build/Test.framework.js",
+        codeUrl: "Build/Test.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Simple Shooty",
